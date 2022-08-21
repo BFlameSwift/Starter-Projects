@@ -2,7 +2,10 @@ module hertz-demo
 
 go 1.18
 
-require github.com/cloudwego/hertz v0.2.1
+require (
+	github.com/cloudwego/hertz v0.2.1
+	github.com/hertz-contrib/cors v0.0.0-20220601061225-50f4e582beaf
+)
 
 require (
 	github.com/bytedance/go-tagexpr/v2 v2.9.2 // indirect
